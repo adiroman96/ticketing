@@ -166,3 +166,10 @@ classDiagram
     TIcketUpdatedPublisher <-- Update    
 
 ```
+
+## SOA patterns used to develop this app
+- Microservice Arhitecture
+- Database per Service: mongo-db docker image
+- Server-side discovery: ingress-nginx
+- Messaging: NATS Streaming Server
+- Access Token: JWT
