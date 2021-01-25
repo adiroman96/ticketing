@@ -11,6 +11,17 @@ A <b>user</b> can:
 | create an order to buy the ticket | POST /api/orders |
 | pay for the ticket | POST /api/payments |
 | see a list of orders completed(payed)/ cancelled | GET /api/orders |
+
+## Tools, technologies & frameworks
+- docker
+- kubernetes
+- skaffold
+- ingress-nginx
+- NATS Streaming Server
+- Next JS
+- React
+- Typescript
+
 ---
 # Diagrams
 
