@@ -3,13 +3,15 @@ This project is a proof of concept containing a SSR web client and a couple of b
 
 ## Functionalities
 A <b>user</b> can:
-- create a ticket that he wants to sell
-- see a list of all available tickets
-- select a ticket to view more details
-- create an order to buy the ticket
-- pay for the ticket
-- see a list of orders completed(payed)/ cancelled
-
+ Functionality      | REST API | 
+| :---        |    :----:   | 
+| create a ticket that he wants to sell      | POST /api/tickets/new     | 
+| see a list of all available tickets   | GET /api/tickets | 
+| select a ticket to view more details | GET /api/tickets/:id |
+| create an order to buy the ticket | POST /api/orders |
+| pay for the ticket | POST /api/payments |
+| see a list of orders completed(payed)/ cancelled | GET /api/orders |
+---
 # Diagrams
 
 Below are presented some c4 diagrams.
